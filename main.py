@@ -1,5 +1,8 @@
+import math
+
 import mpmath
 import numpy
+import numpy as np
 from sympy import *
 from scipy.stats import mode
 
@@ -116,6 +119,12 @@ if __name__ == '__main__':
     p3 = Matrix([1, -4, 2, -2, -2])
     p4 = Matrix([-1, -1, -2, 2, -4])
     p5 = Matrix([-1, 1, -2, 3, 1])
+
+    # foo = []
+    # foo.append(1)
+    # foo.append(2)
+    # print(foo)
+
 
     # pprint(w.norm())
     # pprint(w.dot(p1))
